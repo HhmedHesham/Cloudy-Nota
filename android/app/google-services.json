@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "691627877270",
+    "project_id": "cloud-nota",
+    "storage_bucket": "cloud-nota.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691627877270:android:b9707a35df7f8b7b5333b7",
+        "android_client_info": {
+          "package_name": "com.example.cloud_nota"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691627877270-g8a30o707dmd78p6omq4jk1rpqlqlsh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUIdBaqDI2pkeXtaPpGLCX-lAZZFITAp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691627877270-g8a30o707dmd78p6omq4jk1rpqlqlsh9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "691627877270-satanirol3jkp6ifhjo12sdut0d26hac.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cloudNota"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691627877270:android:e21b61cda5a0bda75333b7",
+        "android_client_info": {
+          "package_name": "com.example.cloudy_nota"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691627877270-g8a30o707dmd78p6omq4jk1rpqlqlsh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUIdBaqDI2pkeXtaPpGLCX-lAZZFITAp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691627877270-g8a30o707dmd78p6omq4jk1rpqlqlsh9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "691627877270-satanirol3jkp6ifhjo12sdut0d26hac.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cloudNota"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
