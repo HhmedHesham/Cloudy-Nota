@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.dark().copyWith(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
         textTheme: TextTheme(
           bodyText1: GoogleFonts.lato(),
           bodyText2: GoogleFonts.lato(),
@@ -35,6 +37,8 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const LoginScreen();
+    return FirebaseAuth.instance.currentUser == null
+        ? const LoginScreen()
+        : const LoginScreen();
   }
 }
