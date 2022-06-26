@@ -14,7 +14,6 @@ void main() async {
   runApp(const MyApp());
 }
 
-// thug life
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
   @override
